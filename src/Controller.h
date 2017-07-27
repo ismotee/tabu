@@ -5,6 +5,7 @@
 #include "ofMain.h"
 #include "timedThread.h"
 #include "ViivanHallinta.h"
+#include "OscInterface.h"
 
 /* Controlller Class 
  *  Controller class stiches (Sessio, piirto, Hiiri) classes together. Controller class makes sure that
@@ -15,7 +16,7 @@
 
 
 
-class Controller: public Sessio, public piirto, public timedThread {
+class Controller: public Sessio, public piirto, public timedThread, public OscInterface {
 public:
     
     ofTimer timer;
