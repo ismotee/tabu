@@ -1,5 +1,5 @@
 obj/linux64/Release/src/vector2d.o: \
- /home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/vector2d.cpp \
- /home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/vector2d.h
+ /home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/vector2d.cpp \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/vector2d.h
 
-/home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/vector2d.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/vector2d.h:

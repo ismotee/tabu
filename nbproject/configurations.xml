@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="ofxOsc"
+                   displayName="ofxOsc"
+                   projectFiles="true"
+                   root="../../../addons/ofxOsc">
+      <logicalFolder name="libs" displayName="libs" projectFiles="true">
+        <logicalFolder name="oscpack" displayName="oscpack" projectFiles="true">
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <logicalFolder name="ip" displayName="ip" projectFiles="true">
+              <logicalFolder name="posix" displayName="posix" projectFiles="true">
+                <itemPath>../../../addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp</itemPath>
+                <itemPath>../../../addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp</itemPath>
+              </logicalFolder>
+              <itemPath>../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp</itemPath>
+            </logicalFolder>
+            <logicalFolder name="osc" displayName="osc" projectFiles="true">
+              <itemPath>../../../addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h</itemPath>
+              <itemPath>../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp</itemPath>
+              <itemPath>../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp</itemPath>
+              <itemPath>../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h</itemPath>
+              <itemPath>../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp</itemPath>
+              <itemPath>../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>../../../addons/ofxOsc/src/ofxOscBundle.cpp</itemPath>
+        <itemPath>../../../addons/ofxOsc/src/ofxOscMessage.cpp</itemPath>
+        <itemPath>../../../addons/ofxOsc/src/ofxOscParameterSync.cpp</itemPath>
+        <itemPath>../../../addons/ofxOsc/src/ofxOscParameterSync.h</itemPath>
+        <itemPath>../../../addons/ofxOsc/src/ofxOscReceiver.cpp</itemPath>
+        <itemPath>../../../addons/ofxOsc/src/ofxOscSender.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
     <df root="." name="0">
       <df name="src">
         <in>Controller.cpp</in>
-        <in>Controller.h</in>
+        <in>GUI.cpp</in>
+        <in>OscInterface.cpp</in>
         <in>Sessio.cpp</in>
-        <in>Sessio.h</in>
         <in>Viiva.cpp</in>
-        <in>Viiva.h</in>
         <in>ViivanHallinta.cpp</in>
-        <in>ViivanHallinta.h</in>
         <in>main.cpp</in>
         <in>ofApp.cpp</in>
         <in>piirto.cpp</in>
@@ -83,21 +115,17 @@
               <pElem>../../../libs/utf8cpp/include</pElem>
               <pElem>../../../libs/utf8cpp/include/utf8</pElem>
               <pElem>../../../libs/openFrameworks</pElem>
-              <pElem>../../../libs/openFrameworks/types</pElem>
-              <pElem>../../../libs/openFrameworks/app</pElem>
-              <pElem>../../../libs/openFrameworks/3d</pElem>
-              <pElem>../../../libs/openFrameworks/communication</pElem>
               <pElem>../../../libs/openFrameworks/graphics</pElem>
-              <pElem>../../../libs/openFrameworks/video</pElem>
-              <pElem>../../../libs/openFrameworks/math</pElem>
-              <pElem>../../../libs/openFrameworks/utils</pElem>
-              <pElem>../../../libs/openFrameworks/sound</pElem>
+              <pElem>../../../libs/openFrameworks/3d</pElem>
               <pElem>../../../libs/openFrameworks/events</pElem>
+              <pElem>../../../libs/openFrameworks/sound</pElem>
+              <pElem>../../../libs/openFrameworks/communication</pElem>
+              <pElem>../../../libs/openFrameworks/utils</pElem>
+              <pElem>../../../libs/openFrameworks/types</pElem>
               <pElem>../../../libs/openFrameworks/gl</pElem>
-              <pElem>src</pElem>
-              <pElem>nbproject</pElem>
-              <pElem>nbproject/private</pElem>
-              <pElem>.</pElem>
+              <pElem>../../../libs/openFrameworks/math</pElem>
+              <pElem>../../../libs/openFrameworks/app</pElem>
+              <pElem>../../../libs/openFrameworks/video</pElem>
             </incDir>
             <preprocessorList>
               <Elem>GCC_HAS_REGEX</Elem>
@@ -111,21 +139,146 @@
           <preBuildCommand></preBuildCommand>
         </preBuild>
       </makefileType>
-      <item path="src/Controller.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
       </item>
-      <item path="src/Controller.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
       </item>
-      <item path="src/Sessio.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
       </item>
-      <item path="src/Sessio.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
       </item>
-      <item path="src/Viiva.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
       </item>
-      <item path="src/Viiva.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
       </item>
-      <item path="src/ViivanHallinta.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
       </item>
-      <item path="src/ViivanHallinta.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../addons/ofxOsc/src/ofxOscBundle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../../../addons/ofxOsc/src/ofxOscMessage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../../../addons/ofxOsc/src/ofxOscParameterSync.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../../../addons/ofxOsc/src/ofxOscReceiver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="../../../addons/ofxOsc/src/ofxOscSender.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="0">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>nbproject</pElem>
+            <pElem>nbproject/private</pElem>
+            <pElem>../../../addons/ofxOsc/src</pElem>
+            <pElem>../../../addons/ofxOsc/libs</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src/ip</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src/ip/posix</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src/ip/win32</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src/osc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="ofxOsc">
+        <ccTool>
+          <incDir>
+            <pElem>../../../addons/ofxOsc/src</pElem>
+            <pElem>../../../addons/ofxOsc/libs</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src/ip</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src/ip/posix</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src/ip/win32</pElem>
+            <pElem>../../../addons/ofxOsc/libs/oscpack/src/osc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/Controller.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/GUI.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/OscInterface.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/Sessio.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/Viiva.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/ViivanHallinta.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="11">
         <ccTool flags="0">

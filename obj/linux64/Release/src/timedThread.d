@@ -1,164 +1,164 @@
 obj/linux64/Release/src/timedThread.o: \
- /home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/timedThread.cpp \
- /home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/timedThread.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/ofMain.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofConstants.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/tess2/include/tesselator.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofLog.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofTypes.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofColor.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofMath.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofPoint.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofVec3f.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofVec2f.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofVec4f.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/events/ofEvents.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/events/ofEventUtils.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/events/ofEvent.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofTimer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofUtils.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/utf8cpp/include/utf8.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/utf8cpp/include/utf8/checked.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/utf8cpp/include/utf8/core.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/utf8cpp/include/utf8/unchecked.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofThread.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/AtomicCounter.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Foundation.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Config.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Platform.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Platform_POSIX.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Alignment.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Bugcheck.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Types.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Mutex.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Exception.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/ScopedLock.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Mutex_POSIX.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Thread.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Event.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Event_POSIX.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Thread_POSIX.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Runnable.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SignalHandler.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/RefCountedObject.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/AutoPtr.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SharedPtr.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofBaseTypes.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofRectangle.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofQuaternion.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/ofMesh.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofPixels.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofXml.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofParameter.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofVectorMath.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofParameterGroup.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Document.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XML.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/AbstractContainerNode.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/AbstractNode.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Node.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/EventTarget.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DOMObject.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XMLString.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/NamespaceSupport.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/MutationEvent.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Event.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DocumentEvent.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Element.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/Name.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/NamePool.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/AutoReleasePool.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DocumentFragment.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DOMParser.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/SAXParser.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/XMLReader.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/ParserEngine.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/expat.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/expat_external.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XMLStream.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/Locator.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/TextEncoding.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DOMException.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XMLException.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/SAXException.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XMLWriter.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/ContentHandler.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/LexicalHandler.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/DTDHandler.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/StreamConverter.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/UnbufferedStreamBuf.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/StreamUtil.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DOMWriter.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Attr.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Text.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/CharacterData.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/NodeIterator.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/NodeFilter.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/NamedNodeMap.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/ChildNodesList.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/NodeList.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/communication/ofSerial.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/communication/ofArduino.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofFbo.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofTexture.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofVboMesh.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofVbo.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofBufferObject.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/ofNode.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/of3dUtils.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofAppRunner.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofWindowSettings.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofMainLoop.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofBaseApp.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofPath.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofTessellator.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofLight.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofMaterial.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofShader.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofGLProgrammableRenderer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/timedThread.cpp \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/timedThread.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/ofMain.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofConstants.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/tess2/include/tesselator.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofFileUtils.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofLog.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofTypes.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofColor.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofMath.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofPoint.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofVec3f.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofVec2f.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofVec4f.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofSystemUtils.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofURLFileLoader.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/events/ofEvents.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/events/ofEventUtils.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/events/ofEvent.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofTimer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofFpsCounter.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofUtils.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/utf8cpp/include/utf8.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/utf8cpp/include/utf8/checked.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/utf8cpp/include/utf8/core.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/utf8cpp/include/utf8/unchecked.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofThread.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/AtomicCounter.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Foundation.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Config.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Platform.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Platform_POSIX.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Alignment.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Bugcheck.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Types.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Mutex.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Exception.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/ScopedLock.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Mutex_POSIX.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Thread.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Event.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Event_POSIX.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Thread_POSIX.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Runnable.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SignalHandler.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/RefCountedObject.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/AutoPtr.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SharedPtr.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofThreadChannel.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofBaseTypes.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofRectangle.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofMatrix4x4.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofQuaternion.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/ofMesh.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofGLUtils.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofPixels.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofXml.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofParameter.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofVectorMath.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofMatrix3x3.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofParameterGroup.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Document.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XML.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/AbstractContainerNode.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/AbstractNode.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Node.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/EventTarget.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DOMObject.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XMLString.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/NamespaceSupport.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/MutationEvent.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Event.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DocumentEvent.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Element.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/Name.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/NamePool.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/AutoReleasePool.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DocumentFragment.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DOMParser.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/SAXParser.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/XMLReader.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/ParserEngine.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/expat.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/expat_external.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XMLStream.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/Locator.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/TextEncoding.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DOMException.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XMLException.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/SAXException.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XMLWriter.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/ContentHandler.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/LexicalHandler.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/DTDHandler.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/StreamConverter.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/UnbufferedStreamBuf.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/StreamUtil.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DOMWriter.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Attr.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Text.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/CharacterData.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/NodeIterator.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/NodeFilter.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/NamedNodeMap.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/ChildNodesList.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/NodeList.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/communication/ofSerial.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/communication/ofArduino.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofFbo.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofTexture.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofVboMesh.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofVbo.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofGLUtils.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofBufferObject.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofGLRenderer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofPolyline.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/of3dGraphics.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/of3dPrimitives.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/ofNode.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/of3dUtils.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofAppRunner.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofWindowSettings.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofMainLoop.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofAppBaseWindow.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofBaseApp.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofBitmapFont.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofMatrixStack.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofGraphics.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofPath.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofTessellator.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofLight.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofMaterial.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofShader.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofGLProgrammableRenderer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofCairoRenderer.h \
  /usr/include/cairo/cairo-features.h /usr/include/cairo/cairo-pdf.h \
  /usr/include/cairo/cairo.h /usr/include/cairo/cairo-version.h \
  /usr/include/cairo/cairo-features.h \
  /usr/include/cairo/cairo-deprecated.h /usr/include/cairo/cairo-svg.h \
  /usr/include/cairo/cairo.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofImage.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/glfw/include/GLFW/glfw3.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofBaseSoundStream.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofRtAudioSoundStream.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofBaseSoundPlayer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/kiss/include/kiss_fft.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/kiss/include/kiss_fftr.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/kiss/include/kiss_fft.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofGstUtils.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofImage.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofRendererCollection.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofTrueTypeFont.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofAppGLFWWindow.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/glfw/include/GLFW/glfw3.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofAppGlutWindow.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofSoundStream.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofBaseSoundStream.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofRtAudioSoundStream.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofSoundBuffer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofSoundPlayer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofBaseSoundPlayer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofOpenALSoundPlayer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/kiss/include/kiss_fft.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/kiss/include/kiss_fftr.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/kiss/include/kiss_fft.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofSoundBuffer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofVideoGrabber.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofGstVideoGrabber.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofGstUtils.h \
  /usr/include/gstreamer-1.0/gst/gst.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -344,278 +344,278 @@ obj/linux64/Release/src/timedThread.o: \
  /usr/include/gstreamer-1.0/gst/video/videoorientation.h \
  /usr/include/gstreamer-1.0/gst/video/video-overlay-composition.h \
  /usr/include/gstreamer-1.0/gst/video/videooverlay.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/ofCamera.h \
- /home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofVideoPlayer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofGstVideoPlayer.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/ofCamera.h \
+ /home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/ofEasyCam.h
 
-/home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/timedThread.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/timedThread.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/ofMain.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/ofMain.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofConstants.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofConstants.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/tess2/include/tesselator.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/tess2/include/tesselator.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofFileUtils.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofLog.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofLog.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofTypes.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofTypes.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofColor.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofColor.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofMath.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofMath.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofPoint.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofPoint.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofVec3f.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofVec3f.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofVec2f.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofVec2f.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofVec4f.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofVec4f.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofSystemUtils.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofURLFileLoader.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/events/ofEvents.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/events/ofEvents.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/events/ofEventUtils.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/events/ofEventUtils.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/events/ofEvent.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/events/ofEvent.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofTimer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofTimer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofFpsCounter.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofUtils.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofUtils.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/utf8cpp/include/utf8.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/utf8cpp/include/utf8.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/utf8cpp/include/utf8/checked.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/utf8cpp/include/utf8/checked.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/utf8cpp/include/utf8/core.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/utf8cpp/include/utf8/core.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/utf8cpp/include/utf8/unchecked.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/utf8cpp/include/utf8/unchecked.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofThread.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofThread.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/AtomicCounter.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/AtomicCounter.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Foundation.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Foundation.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Config.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Config.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Platform.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Platform.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Platform_POSIX.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Platform_POSIX.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Alignment.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Alignment.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Bugcheck.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Bugcheck.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Types.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Types.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Mutex.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Mutex.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Exception.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Exception.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/ScopedLock.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/ScopedLock.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Mutex_POSIX.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Mutex_POSIX.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Thread.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Thread.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Event.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Event.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Event_POSIX.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Event_POSIX.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Thread_POSIX.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Thread_POSIX.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/Runnable.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/Runnable.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SignalHandler.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SignalHandler.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/RefCountedObject.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/RefCountedObject.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/AutoPtr.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/AutoPtr.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SharedPtr.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SharedPtr.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofThreadChannel.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofBaseTypes.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofBaseTypes.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofRectangle.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofRectangle.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofMatrix4x4.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofQuaternion.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofQuaternion.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/ofMesh.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/ofMesh.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofGLUtils.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofPixels.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofPixels.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofXml.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofXml.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofParameter.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofParameter.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofVectorMath.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofVectorMath.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/math/ofMatrix3x3.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/types/ofParameterGroup.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/types/ofParameterGroup.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Document.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Document.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XML.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XML.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/AbstractContainerNode.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/AbstractContainerNode.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/AbstractNode.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/AbstractNode.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Node.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Node.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/EventTarget.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/EventTarget.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DOMObject.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DOMObject.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XMLString.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XMLString.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/NamespaceSupport.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/NamespaceSupport.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/MutationEvent.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/MutationEvent.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Event.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Event.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DocumentEvent.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DocumentEvent.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Element.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Element.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/Name.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/Name.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/NamePool.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/NamePool.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/AutoReleasePool.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/AutoReleasePool.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DocumentFragment.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DocumentFragment.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DOMParser.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DOMParser.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/SAXParser.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/SAXParser.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/XMLReader.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/XMLReader.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/ParserEngine.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/ParserEngine.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/expat.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/expat.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/expat_external.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/expat_external.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XMLStream.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XMLStream.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/Locator.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/Locator.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/TextEncoding.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/TextEncoding.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DOMException.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DOMException.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XMLException.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XMLException.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/SAXException.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/SAXException.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/XML/XMLWriter.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/XML/XMLWriter.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/ContentHandler.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/ContentHandler.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/LexicalHandler.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/LexicalHandler.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/SAX/DTDHandler.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/SAX/DTDHandler.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/StreamConverter.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/StreamConverter.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/UnbufferedStreamBuf.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/UnbufferedStreamBuf.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/StreamUtil.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/StreamUtil.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/DOMWriter.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/DOMWriter.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Attr.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Attr.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/Text.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/Text.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/CharacterData.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/CharacterData.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/NodeIterator.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/NodeIterator.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/NodeFilter.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/NodeFilter.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/NamedNodeMap.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/NamedNodeMap.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/ChildNodesList.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/ChildNodesList.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/poco/include/Poco/DOM/NodeList.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/poco/include/Poco/DOM/NodeList.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/communication/ofSerial.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/communication/ofSerial.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/communication/ofArduino.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/communication/ofArduino.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofFbo.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofFbo.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofTexture.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofTexture.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofVboMesh.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofVboMesh.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofVbo.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofVbo.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofGLUtils.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofBufferObject.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofBufferObject.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofGLRenderer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofPolyline.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/of3dGraphics.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/of3dPrimitives.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/ofNode.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/ofNode.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/of3dUtils.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/of3dUtils.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofAppRunner.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofAppRunner.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofWindowSettings.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofWindowSettings.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofMainLoop.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofMainLoop.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofAppBaseWindow.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofBaseApp.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofBaseApp.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofBitmapFont.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/utils/ofMatrixStack.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofGraphics.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofPath.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofPath.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofTessellator.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofTessellator.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofLight.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofLight.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofMaterial.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofMaterial.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofShader.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofShader.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/gl/ofGLProgrammableRenderer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/gl/ofGLProgrammableRenderer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofCairoRenderer.h:
 
 /usr/include/cairo/cairo-features.h:
 
@@ -633,45 +633,45 @@ obj/linux64/Release/src/timedThread.o: \
 
 /usr/include/cairo/cairo.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofImage.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofImage.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofRendererCollection.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/graphics/ofTrueTypeFont.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofAppGLFWWindow.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/glfw/include/GLFW/glfw3.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/glfw/include/GLFW/glfw3.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/app/ofAppGlutWindow.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofSoundStream.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofBaseSoundStream.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofBaseSoundStream.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofRtAudioSoundStream.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofRtAudioSoundStream.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofSoundBuffer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofSoundPlayer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofBaseSoundPlayer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofBaseSoundPlayer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofOpenALSoundPlayer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/kiss/include/kiss_fft.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/kiss/include/kiss_fft.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/kiss/include/kiss_fftr.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/kiss/include/kiss_fftr.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/kiss/include/kiss_fft.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/kiss/include/kiss_fft.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/sound/ofSoundBuffer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofVideoGrabber.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofGstVideoGrabber.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofGstUtils.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofGstUtils.h:
 
 /usr/include/gstreamer-1.0/gst/gst.h:
 
@@ -1071,10 +1071,10 @@ obj/linux64/Release/src/timedThread.o: \
 
 /usr/include/gstreamer-1.0/gst/video/videooverlay.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofVideoPlayer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/video/ofGstVideoPlayer.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/ofCamera.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/ofCamera.h:
 
-/home/ismo/ohjelmointi/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h:
+/home/olento/koodaus/of_v0.9.8_linux64_release/libs/openFrameworks/3d/ofEasyCam.h:

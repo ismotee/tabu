@@ -10,12 +10,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/Controller.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/piirto.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/ViivanHallinta.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/Sessio.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/Viiva.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/codelite/tabu/src/ViivanHallinta.h</file>
+            <file>file:/home/olento/tabu/tabu/src/ofApp.cpp</file>
+            <file>file:/home/olento/tabu/tabu/src/ofApp.h</file>
         </group>
     </open-files>
 </project-private>

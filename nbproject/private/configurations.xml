@@ -17,6 +17,10 @@
       <df name="src">
         <in>Controller.cpp</in>
         <in>Controller.h</in>
+        <in>GUI.cpp</in>
+        <in>GUI.h</in>
+        <in>OscInterface.cpp</in>
+        <in>OscInterface.h</in>
         <in>Sessio.cpp</in>
         <in>Sessio.h</in>
         <in>Viiva.cpp</in>

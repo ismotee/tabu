@@ -4,12 +4,32 @@
 
 void ofApp::setup() {
     controller.setup(120);
+    oscGui.setup();
 }
 
 //--------------------------------------------------------------
 
 void ofApp::update() {
     controller.update();
+    GUI_info_T info = oscGui.getInfo();
+    if(info.connecting) {
+        oscGui.print("connecting to " + info.ip + " @ " + ofToString(info.senderPort) + "," + ofToString(info.receiverPort) + "...");
+        controller.setAddress(info.ip, info.senderPort, info.receiverPort);
+        if(!controller.connection) 
+            controller.connect();
+        if(controller.connection)
+            oscGui.print("connected");
+    }
+    
+    if(info.disconnecting ) {
+        if(controller.connection) {
+            oscGui.print("disconnecting");
+            controller.disconnect();
+        }
+        else
+            oscGui.print("not connected");
+    }
+
  
 }
 
@@ -17,12 +37,13 @@ void ofApp::update() {
 
 void ofApp::draw() {
     controller.draw();
+    oscGui.draw();
 }
 
 //--------------------------------------------------------------
 
 void ofApp::keyPressed(int key) {
-    
+    oscGui.handleKey(key);    
 }
 
 //--------------------------------------------------------------
@@ -45,7 +66,11 @@ void ofApp::mouseDragged(int x, int y, int button) {
 //--------------------------------------------------------------
 
 void ofApp::mousePressed(int x, int y, int button) {
-    controller.hiiri.pressed(x,y);
+
+    if(oscGui.show)
+        oscGui.handleClick(x,y);
+    else
+        controller.hiiri.pressed(x,y);
 
 }
 

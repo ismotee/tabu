@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "Controller.h"
+#include "GUI.h"
 
 class ofApp : public ofBaseApp{
 	public:
@@ -22,4 +23,6 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 		
                 Controller controller;
+                GUI oscGui;
+
 };
