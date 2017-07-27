@@ -10,7 +10,7 @@ void OscInterface::sendFloat(std::string address, float value) {
         ofxOscMessage msg;
         msg.setAddress(address);
         msg.addFloatArg(value);
-        sender.sendMessage(msg, false);
+        sender.sendMessage(msg,false);
     }
 }
 

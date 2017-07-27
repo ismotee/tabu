@@ -6,6 +6,7 @@
 #include "timedThread.h"
 #include "ViivanHallinta.h"
 #include "OscInterface.h"
+#include "Hidpen.h"
 
 /* Controlller Class 
  *  Controller class stiches (Sessio, piirto, Hiiri) classes together. Controller class makes sure that
@@ -18,7 +19,7 @@
 
 class Controller: public Sessio, public piirto, public timedThread, public OscInterface {
 public:
-    
+    Hidpen pen;
     ofTimer timer;
     ViivanHallinta viivanHallinta;
     

@@ -9,7 +9,7 @@ struct Viiva {
     float keskinopeus;
     
     
-    void laskeKeskinopeus();
+    void laskeKeskinopeus(int otanta);
 float bound(float val, float min, float max) {
     if(val > max)
         return max;

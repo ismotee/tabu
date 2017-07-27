@@ -3,14 +3,23 @@
 
 #include "Viiva.h"
 
-void Viiva::laskeKeskinopeus() {
+void Viiva::laskeKeskinopeus(int otanta) {
     float summa = 0;
 
-    for (int i = 0; i < pisteet.size() - 1; i++) {
-        summa +=  (pisteet[i+1] - pisteet[i]).length();
-    }
-    if (!pisteet.empty())
+    if (pisteet.size() < otanta) {
+        for (int i = 0; i < pisteet.size() - 1; i++) {
+            summa += (pisteet[i + 1] - pisteet[i]).length();
+        }
         keskinopeus = summa / pisteet.size();
-    else
+    } else {
+        for (int i = pisteet.size() - otanta; i < pisteet.size() - 1; i++) {
+            summa += (pisteet[i + 1] - pisteet[i]).length();
+        }
+        keskinopeus = summa / otanta;
+    }
+
+
+
+    if (pisteet.empty())
         keskinopeus = 0;
 }
