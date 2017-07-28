@@ -28,37 +28,39 @@ bool Hidpen::readPressure() {
         return false;
 }
 
-void Hidpen::setup() {
-    getDevices();
-    //select a device to read from. Device is the argument, default is 1
-    int device_i = 0;
-    openDevice(0);
-    //open device
-
+bool Hidpen::setup(int i) {
+    pressure = 0;
+            
+    if (!getDevices())
+        return false;
+    if(!openDevice(i))
+        return false;
+    return true;
 }
-    bool Hidpen::getDevices() { 
-        //temporary linked list of devices and an iterator to it:
-        struct hid_device_info *devs, *cur_dev; 
-       
-        //init, TODO: put this to a better place
-        if (hid_init() == -1) 
-            return false;
-        
-        deviceList.clear();
-        
-      	//get the devices to the linked list:
-        devs = hid_enumerate(0x0, 0x0); 
-        
-        //copy info from the temporary linked list to the deviceList vector:
-        cur_dev = devs;	
-	while (cur_dev) {
-            deviceInfo newDeviceInfo(cur_dev->vendor_id, cur_dev->product_id, cur_dev->path);
-            deviceList.push_back(newDeviceInfo);
-            cur_dev = cur_dev->next;
-	}
-        
-        //free the temporary list:
-        hid_free_enumeration(devs);
-        
-        return true;
+
+bool Hidpen::getDevices() {
+    //temporary linked list of devices and an iterator to it:
+    struct hid_device_info *devs, *cur_dev;
+
+    //init, TODO: put this to a better place
+    if (hid_init() == -1)
+        return false;
+
+    deviceList.clear();
+
+    //get the devices to the linked list:
+    devs = hid_enumerate(0x0, 0x0);
+
+    //copy info from the temporary linked list to the deviceList vector:
+    cur_dev = devs;
+    while (cur_dev) {
+        deviceInfo newDeviceInfo(cur_dev->vendor_id, cur_dev->product_id, cur_dev->path);
+        deviceList.push_back(newDeviceInfo);
+        cur_dev = cur_dev->next;
     }
+
+    //free the temporary list:
+    hid_free_enumeration(devs);
+
+    return true;
+}

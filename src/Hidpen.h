@@ -32,7 +32,7 @@ struct Hidpen {
     bool getDevices();
     void clearBuffer();
     bool readPressure();
-    void setup();
+    bool setup(int i);
     //~Hidpen(){delete buffer;}
 };
 

@@ -45,16 +45,15 @@ void piirto::laskeSavy(float nopeus, float herkkyys) {
 }
 
 void piirto::laskeSaturaatio(float nopeus, float herkkyys) {
-    saturaatio = saturaatio * 0.98 + nopeus * 0.02;
-    saturaatio = saturaatio * 0.98 + herkkyys *0.06;
-    
+    saturaatio = saturaatio * 0.96 + nopeus * 0.02 + herkkyys *0.04;    
 }
 
 void piirto::laskeKirkkaus(float nopeus, float herkkyys) {
     if (nopeus < 0.2) {
-        kirkkaus = kirkkaus * 0.99 + nopeus * 0.01;
+        kirkkaus = kirkkaus * 0.97 + nopeus * 0.01 + herkkyys * 0.02;
     } else {
-        kirkkaus = kirkkaus * 0.95 + 1 * 0.05;
+        kirkkaus = kirkkaus * 0.97 + herkkyys * 0.03;
     }
+    
 
 }

@@ -19,6 +19,7 @@
 
 class Controller: public Sessio, public piirto, public timedThread, public OscInterface {
 public:
+    bool penExists;
     Hidpen pen;
     ofTimer timer;
     ViivanHallinta viivanHallinta;

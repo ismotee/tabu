@@ -12,27 +12,39 @@ Controller::~Controller() {
 }
 
 void Controller::setup(float timesPerSecond) {
-    pen.setup();
+    penExists = pen.setup(0);
     setAddress("localhost", 9997, 9998);
     Sessio::setup(300, 200);
     timedThread::setup(timesPerSecond);
     piirto::setup(ofGetWidth(), ofGetHeight());
-    cout << "tahan" << "\n";
-    pen.readPressure();
-    cout << "asti" << "\n";
+
 }
 
 void Controller::update() {
     Sessio::update();
-    pen.readPressure();
+    
+    if(connection)
+        sendFloat("/debug", ofRandom(1));
+    
+    if (penExists)
+        pen.readPressure();
+
     if (Sessio::moodi == piirtaa) {
-        piirto::update(viivanHallinta.nopeus,1-pen.pressure,true);
-        sendFloat("/nopeus",viivanHallinta.nopeus);
+
+        if (penExists) {
+            piirto::update(viivanHallinta.nopeus, 1-pen.pressure, true);
+            sendFloat("/nopeus", viivanHallinta.nopeus);
+            sendFloat("/paine", pen.pressure);
+        } else {
+            piirto::update(viivanHallinta.nopeus, viivanHallinta.herkkyys, true);
+            sendFloat("/nopeus", viivanHallinta.nopeus);
+
+        }
     } else {
         double pi = 3.1415926535897;
         float arvo = sin((float) (Sessio::updateCount % 2000) / 2000 * pi);
 
-        piirto::update(arvo,1,false);
+        piirto::update(arvo, 1, false);
     }
 }
 
@@ -40,11 +52,15 @@ void Controller::loop() {
     switch (Sessio::moodi) {
         case kalibroi:
             viivanHallinta.lisaaPisteKalibrointiin(hiiri.mouseState);
+            if(penExists)
+                viivanHallinta.lisaaHerkkyysKalibrointiin(1-pen.pressure);
             viivanHallinta.kalibroi();
             piirto::tallennaAloitusVari();
             break;
         case piirtaa:
             viivanHallinta.lisaaPisteViivaan(hiiri.mouseState);
+            if(penExists)
+                viivanHallinta.lisaaHerkkyysViivaan(1-pen.pressure);
             viivanHallinta.laskeJaVertaa();
             break;
         case viivaKesken:

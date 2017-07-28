@@ -7,4 +7,22 @@
         <activeConfTypeElem>0</activeConfTypeElem>
         <activeConfIndexElem>0</activeConfIndexElem>
     </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/tabu.project</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Controller.cpp</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Hidpen.h</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/ViivanHallinta.cpp</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Controller.h</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/Makefile</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Viiva.cpp</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/piirto.cpp</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/piirto.h</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/ViivanHallinta.h</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/config.make</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Hidpen.cpp</file>
+            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Viiva.h</file>
+        </group>
+    </open-files>
 </project-private>

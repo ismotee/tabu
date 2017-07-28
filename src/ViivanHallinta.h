@@ -13,7 +13,9 @@ struct ViivanHallinta {
     void laskeJaVertaa();
     
     void lisaaPisteKalibrointiin(ofPoint piste);
+    void lisaaHerkkyysKalibrointiin(float herkkyys);
     void lisaaPisteViivaan(ofPoint piste);
+    void lisaaHerkkyysViivaan(float herkkyys);
     
     void tyhjenna();
     
