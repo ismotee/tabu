@@ -139,6 +139,10 @@ void console::add(const std::string& str) {
 }
 
 
+void console::clear() {
+    contents.clear();
+}
+
 // ****************** GUI : public GUI_element ********************* //
 
 GUI::GUI(int x_, int y_, int w_, int h_) : GUI_element(x_,y_,w_,h_) {    
@@ -183,6 +187,8 @@ void GUI::draw() {
 
 
 void GUI::update() {
+    //print commands come after this, preferably in the draw step
+    outputConsole.clear();
 }
 
 

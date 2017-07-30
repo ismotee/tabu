@@ -24,5 +24,4 @@ class ofApp : public ofBaseApp{
 		
                 Controller controller;
                 GUI oscGui;
-
 };

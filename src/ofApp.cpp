@@ -3,34 +3,52 @@
 //--------------------------------------------------------------
 
 void ofApp::setup() {
-    controller.setup(120);
+    controller.setup(120); //set controller @ 120 fps
     oscGui.setup();
 }
 
 //--------------------------------------------------------------
 
 void ofApp::update() {
+    //päivitä kaikki jutut
     controller.update();
+    oscGui.update();
+    
+    //hae tiedot GUI:sta
     GUI_info_T info = oscGui.getInfo();
+    
+    //jos on painettu connect-buttonia, käske controlleria vaihtamaan osoitetta
     if(info.connecting) {
-        oscGui.print("connecting to " + info.ip + " @ " + ofToString(info.senderPort) + "," + ofToString(info.receiverPort) + "...");
         controller.setAddress(info.ip, info.senderPort, info.receiverPort);
         if(!controller.connection) 
             controller.connect();
-        if(controller.connection)
-            oscGui.print("connected");
     }
     
+    //jos on painettu disconnect-buttonia, käske controlleria lopettamaan lähetys
     if(info.disconnecting ) {
-        if(controller.connection) {
-            oscGui.print("disconnecting");
+        if(controller.connection)
             controller.disconnect();
-        }
-        else
-            oscGui.print("not connected");
     }
+    
+    //kerro GUIn päätteessä näppäinkomennot
+    oscGui.print("Press + or - to cycle through input devices");
+    oscGui.print(""); //rivinvaihto
+    
+    //kerro GUIn päätteessä yhteyden tiedot
+    if(controller.connection) {
+        oscGui.print("Sending"); //TODO: kerro mihin osoitteeseen ja mitä lähetetään!
+        oscGui.print(""); //rivinvaihto
+    }        
 
- 
+    //kerro GUIn päätteessä HID-laitteen tiedot
+    if(hidpen::isOpen)
+        oscGui.print("Device " + ofToString(hidpen::currentDevice_i) + " is open");
+    else
+        oscGui.print("No HID devices open");
+    if(controller.penExists) {        
+        oscGui.print("Device is pressure pen");
+        oscGui.print("Pressure: " + ofToString(hidpen::pressure) );
+    }
 }
 
 //--------------------------------------------------------------
@@ -43,7 +61,17 @@ void ofApp::draw() {
 //--------------------------------------------------------------
 
 void ofApp::keyPressed(int key) {
-    oscGui.handleKey(key);    
+    oscGui.handleKey(key);
+    
+    //hidpen: vaihdetaan laitetta
+    if(key == '+') {
+        hidpen::nextDevice();
+        controller.penExists = false;
+    }
+    if(key == '-') {
+        hidpen::prevDevice();
+        controller.penExists = false;
+    }
 }
 
 //--------------------------------------------------------------

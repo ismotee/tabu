@@ -76,6 +76,7 @@ public:
     
     void draw(int x0 = 0, int y0 = 0);
     void add(const std::string& str);
+    void clear();
 };
 
 

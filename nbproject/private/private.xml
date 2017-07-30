@@ -10,19 +10,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/tabu.project</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Controller.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Hidpen.h</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/ViivanHallinta.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Controller.h</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/Makefile</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Viiva.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/piirto.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/piirto.h</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/ViivanHallinta.h</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/config.make</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Hidpen.cpp</file>
-            <file>file:/home/ismo/ohjelmointi/openFrameworks/apps/myApps/tabu/src/Viiva.h</file>
+            <file>file:/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/hidpen.cpp</file>
+            <file>file:/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/hidpen.h</file>
+            <file>file:/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/Controller.cpp</file>
+            <file>file:/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/GUI.h</file>
+            <file>file:/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/Controller.h</file>
+            <file>file:/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/GUI.cpp</file>
+            <file>file:/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/ofApp.h</file>
+            <file>file:/home/olento/koodaus/of_v0.9.8_linux64_release/apps/myApps/tabu/src/ofApp.cpp</file>
         </group>
     </open-files>
 </project-private>
